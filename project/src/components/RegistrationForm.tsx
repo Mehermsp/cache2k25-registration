@@ -189,7 +189,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ event, onBack, onSu
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
                   <Users className="w-5 h-5 mr-2 text-purple-600" />
-                  Team Members (3 Additional Members)
+                  Team Members details
                 </h3>
                 {teamMembers.map((member, index) => (
                   <div key={index} className="bg-gray-50 p-6 rounded-lg mb-4">

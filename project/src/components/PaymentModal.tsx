@@ -21,6 +21,7 @@ const PaymentModal: React.FC<PaymentModalProps> = ({ registration, onClose, onSu
       'pycharm': 'PyCharm Programming Contest',
       'technical-quiz': 'Technical Quiz',
       'photo-contest': 'Photography Contest',
+      'live-drawing': 'Live Drawing',
       'tech-meme-contest': 'Tech Meme Contest',
       'bgmi-esports': 'BGMI Esports Tournament',
       'freefire-esports': 'Free Fire Esports Championship'

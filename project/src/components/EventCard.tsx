@@ -1,6 +1,6 @@
 import React from 'react';
 import { Event } from '../types/Event';
-import { Calendar, Users, DollarSign, Clock } from 'lucide-react';
+import { Calendar, Users, IndianRupee, Clock } from 'lucide-react';
 
 interface EventCardProps {
   event: Event;
@@ -43,8 +43,8 @@ const EventCard: React.FC<EventCardProps> = ({ event, onRegister }) => {
         
         <div className="space-y-2 mb-4">
           <div className="flex items-center text-sm text-gray-500">
-            <DollarSign className="w-4 h-4 mr-2 text-green-500" />
-            <span className="font-semibold text-green-600">₹{event.price}</span>
+            <IndianRupee className="w-4 h-4 mr-2 text-green-500" />
+            <span className="font-semibold text-green-600">{event.price}</span>
           </div>
           
           <div className="flex items-center text-sm text-gray-500">
