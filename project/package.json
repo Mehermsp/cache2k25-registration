@@ -19,6 +19,7 @@
     "mongoose": "^8.18.0",
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.8",
+    "pg-sdk-node": "https://phonepe.mycloudrepo.io/public/repositories/phonepe-pg-sdk-node/releases/v2/phonepe-pg-sdk-node.tgz",
     "razorpay": "^2.9.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

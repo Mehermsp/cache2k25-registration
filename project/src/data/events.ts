@@ -88,7 +88,7 @@ export const events: Event[] = [
         name: "BGMI Esports Tournament",
         category: "non-technical",
         description:
-            "You have too carry your own device along with your own internet. No facilities provided related to gaming.",
+            "You have to carry your own device along with your own internet <b> (No routers, Wifi provided) </b>. No facilities provided related to gaming.",
         price: 200,
         maxParticipants: 4,
         requiresTeam: true,
@@ -102,7 +102,7 @@ export const events: Event[] = [
         name: "Free Fire Esports Championship",
         category: "non-technical",
         description:
-            "You have too carry your own device along with your own internet. No facilities provided related to gaming.",
+            "You have to carry your own device along with your own internet  (No routers, Wifi provided). No facilities provided related to gaming.",
         price: 200,
         maxParticipants: 4,
         requiresTeam: true,
